@@ -1,6 +1,8 @@
 # coding: utf-8
 
 require_relative 'lib/rspec/flaky/version'
+#require '/home/ubuntu/pegasus/spec/rspec-retry-flaky/lib/rspec/flaky/version'
+#require File.expand_path('lib/rspec/flaky/version', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.0.0'
